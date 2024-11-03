@@ -19,7 +19,7 @@ const ContactList = () => {
     return <Message title={'Contacts are not found'} />;
   return (
     <>
-      <h2 className={css.title}>Contact list</h2>
+      <h2 className={css.title}>Contacts list</h2>
       <div className={css.contactList}>
         {filteredContacts.map(item => {
           return (

@@ -8,3 +8,9 @@ body {
   line-height: 1.5;
   padding: 15px;
 }
+.mainTitle {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}

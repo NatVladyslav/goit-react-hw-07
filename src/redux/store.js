@@ -17,7 +17,7 @@ import {
 const contactsConfig = {
   key: 'contacts', // ключ з localStorage
   storage,
-  whitelist: ['items'], // -  виключення синхронізації поля
+  // whitelist: ['items'], // -  виключення синхронізації поля
 };
 export const store = configureStore({
   reducer: {
