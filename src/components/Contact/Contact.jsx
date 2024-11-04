@@ -3,7 +3,7 @@ import { IoMdPerson } from 'react-icons/io';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import { useDispatch } from 'react-redux';
-import { removeContact } from '../../redux/thunkOptions';
+import { removeContact } from '../../redux/contactsOps';
 
 const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();

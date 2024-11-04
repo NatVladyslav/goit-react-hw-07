@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import css from './ContactForm.module.css';
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/thunkOptions.js';
+import { addContact } from '../../redux/contactsOps.js';
 import { validationSchema } from '../../utility/formUtil';
 
 const initialValues = {
